@@ -5,6 +5,11 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .container-1 {
     background-color: #1f2937;
 }
@@ -15,13 +20,14 @@ header {
     padding: 5px 400px;
 }
 
-.logo {
-    font-size: 24px;
-    font-weight: 500;
-    color: #f9faf8;
+.logo>img {
+    width: 75px;
+    height: 75px;
+
 }
 
 .links {
+    padding-top: 10px;
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -55,11 +61,11 @@ header {
 #sub {
     font-size: 18px;
     color: #e5e7eb;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 button {
-    margin-top: 10px;
+    margin-top: 15px;
     background-color: #3882f6;
     border: 1px solid #3882f6;
     border-radius: 15px;
@@ -69,8 +75,8 @@ button {
 }
 
 .img {
-    width: 350px;
-    height: 150px;
+    width: 500px;
+    height: 250px;
     margin-left: 25px;
 }
 
@@ -84,13 +90,14 @@ button {
 
 .images {
     display: flex;
-    gap: 35px;
+
     justify-content: space-evenly;
     padding: 50px 550px;
 }
 
 .illustration {
     text-align: center;
+    padding: 35px;
 }
 
 .ill {
@@ -146,6 +153,7 @@ button {
 .action-btn {
     border: 2px solid white;
     padding: 8px 16px;
+    cursor: grab;
 }
 
 .footer {
