@@ -62,10 +62,10 @@ button {
     margin-top: 10px;
     background-color: #3882f6;
     border: 1px solid #3882f6;
-    border-radius: 5%;
+    border-radius: 15px;
     color: white;
     font-weight: bold;
-    padding: 10px 25px;
+    padding: 10px 30px;
 }
 
 .img {
@@ -76,7 +76,7 @@ button {
 
 .heading {
     text-align: center;
-    margin: 30px;
+    margin: 50px;
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
@@ -86,7 +86,7 @@ button {
     display: flex;
     gap: 35px;
     justify-content: space-evenly;
-    padding: 0 550px;
+    padding: 50px 550px;
 }
 
 .illustration {
@@ -98,4 +98,56 @@ button {
     height: 125px;
     border: 3px solid #3882f6;
     border-radius: 7%;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.quote>blockquote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    padding: 150px 600px;
+}
+
+.thor {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: right;
+}
+
+.container-3 {
+    padding: 100px 400px;
+}
+
+.action {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882f6;
+    border-radius: 5px;
+}
+
+.text {
+    padding: 50px 50px 50px 75px;
+}
+
+.action-main {
+    color: #e5e7eb;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.action-sub {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.action-btn {
+    border: 2px solid white;
+    padding: 5px 10px;
+    width: 10px;
+    height: 5px;
+
 }
